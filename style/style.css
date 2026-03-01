@@ -1,0 +1,178 @@
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+}
+
+input[type="text"] {
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+.mainheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; /* Full height of the viewport */
+}
+.downloader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* Full height of the viewport */
+}
+
+.plotimage{
+text-align: center;
+height: auto; 
+max-width: 50%;
+justify-content:center;
+}
+
+.table-container {
+    max-width: 100%;
+    overflow-x: auto; /* Allows horizontal scrolling */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    margin-right:75px;
+}
+
+.table th {
+    background-color: #4a6d8c;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    border: 1px solid #ddd;
+}
+
+/* Table Rows */
+.table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+    background-color: transparent;
+}
+
+/* Alternating Row Colors */
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover Effect */
+.table tr:hover {
+    background-color: #d4d4d4;
+    transition: 0.1s;
+}
+
+/* Responsive Table */
+@media (max-width: 768px) {
+    table {
+       font-size: 14px;
+    }
+    th, td {
+        padding: 6px;
+    }
+}
+/* General Page Styling */
+body {
+  background-color: #f8f9fa; /* Light grey background */
+  font-family: Arial, sans-serif;
+  margin: 75px;
+  padding-left: 75px; 
+  padding-right: 75px;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #343a40 !important; /* Dark background */
+}
+
+.navbar-brand {
+  color: white !important;
+  font-weight: bold;
+}
+
+/* Centered Search Container */
+.search-container {
+  margin-top: 60px;
+}
+
+/* Search Card */
+.search-card {
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Card Header */
+.search-card .card-header {
+  background-color: #4CAF50;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 8px 8px 0 0;
+}
+
+/* Card Body */
+.search-card .card-body {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+/* Form Labels */
+.form-label {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Form Inputs */
+.form-control {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Search Button */
+.btn-primary {
+  background-color: #04386e;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #02254a;
+}
+
+/* Browse Results Buttons */
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+/* Center Browse Buttons */
+.d-flex {
+  justify-content: center;
+  margin-top: 15px;
+}
+
+/* Mobile Optimization */
+@media (max-width: 768px) {
+  .search-container {
+    margin-top: 30px;
+  }
+}
+
